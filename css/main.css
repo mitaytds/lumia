@@ -1,0 +1,181 @@
+body{
+	width: 897px;
+	background: #ffffff;
+	margin: auto;
+	padding: 0;
+	font-size: 14px;
+	font-family: 'Segoe UI';
+	color: grey;
+}
+h1{
+	font-size: 41px;
+	color: black;
+	font-weight: normal;
+	margin-top: 30px;
+}
+h2{
+	font-size: 14px;
+	color: black;
+	margin: 0px;
+}
+p{
+	margin-bottom: 30px
+}
+header{
+	position: relative;
+	width: 897px;
+	height: 133px;
+	background: #ffffff;
+	border-bottom:  1px solid grey;
+}
+.menu1{
+	position: absolute;
+	top: 80px;
+	left: -40px;
+}
+.menu1  li{
+	display: inline-block;
+	font-size: 20px;
+	list-style: none;
+}
+.menu1  a{
+	text-decoration: none;
+	color: grey;
+}
+.menu2{
+	position: absolute;
+	right: 0px;
+	top: 5px;
+}
+.menu2 li{
+	display: inline-block;
+	list-style: none;
+}
+.menu2  a{
+	text-decoration: none;
+	color: grey;
+}
+.search{
+	position: absolute;
+	right: 0px;
+	top: 60px;
+}
+.search input:nth-child(1){
+	background: lightgrey;
+	list-style: none;
+	border: none;
+}
+.search input:nth-child(2){
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	transform: scaleX(-1);
+}
+button{
+	position: absolute;
+	right: 0px; 
+	top: 100px;
+	color: grey;
+	background: none;
+	border: none;
+	padding: 0;
+}
+button > img{
+	padding-left: 5px;
+	width: 17px; 
+	height: 17px;
+	vertical-align: middle;
+}
+.menu1 .active a:nth-child(1){
+	color: red;
+}
+.menu1 a:hover{
+	color: black;
+}
+.center{
+	width: 897px;
+}
+.block{
+	position: relative;
+	background: black no-repeat;
+	width: 897px;
+	height: 242px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.function{
+	position: absolute;
+	right: 0px;
+	color: white;
+	width: 360px;
+	height: 160px;
+	margin-right: 50px;
+	margin-top: 30px;
+	height: 242px;
+}
+.block button{
+	font-size: 21px;
+	color: white;
+	font-weight: bold;
+	top: 198px;
+	right: 201px;
+}
+.block button  img{
+	vertical-align: inherit;
+}
+
+/*left_side_ico*/
+.l-s-i{
+	width: 100px;
+	vertical-align:  top;
+	padding: 0px;
+}
+/*left_side_text*/
+.l-s-t{
+	width: 357px;
+	vertical-align: top;
+	padding: 0px;
+}
+/*right_side_ico*/
+.r-s-i{
+	width: 120px;
+	text-align: center;
+	vertical-align: top;
+	padding: 0px;
+}
+/*right_side_text*/
+.r-s-t{
+	vertical-align: top;
+	padding: 0px;
+}
+.content{
+	margin-top: 0px;
+}	
+table{	
+	width: 897px;
+	white-space: 0px;
+	padding-bottom: 140px;
+}
+footer{
+	position: relative; 
+	width: 897px;
+	height: 193px;
+}
+.menu3{
+	position: absolute;
+	top: 96px;
+	left: -40px;
+}
+.menu3 li{
+	display: inline-block;
+	list-style: none;
+}
+.menu3 a{
+	text-decoration: none;
+	color: grey;
+}
+.logomin{
+	position: absolute;
+	right: 0px;
+	top: 90px;
+}
